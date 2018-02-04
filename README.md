@@ -4,7 +4,7 @@ Insert images from event descriptions into Joomla jevents modules
 This plugin is a heavily simplified version of the Jevents Standard Images and Files (jevfiles). It takes the first content image of an event (created in the Jevents component for Joomla), and inserts it in a Jevents Latest Events Module. 
 
 ## Usage
-This is a Jevents plugin. It works in Jevents displays. It replaces the string JEV_CONTIMAGE in the display’s layout with the 1st content image found in the event's description. The images must be referenced as \<img\> tags in the event’s HTML description (what you usually get if you insert them with a text editor like TinyMCE or JCE). I use it with Jevents Latest Events module.
+This is a Jevents plugin. It works in Jevents displays. It replaces the string ${JEV_CONTIMAGE} in the display’s layout with the 1st content image found in the event's description. The images must be referenced as \<img\> tags in the event’s HTML description (what you usually get if you insert them with a text editor like TinyMCE or JCE). I use it with Jevents Latest Events module.
 *Tested with Jevents 3.4.23*
 
 ## Background
